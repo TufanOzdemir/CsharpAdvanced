@@ -28,5 +28,17 @@ namespace OperatorOverloading
         {
             return gun1.Capacity != gun2.Capacity;
         }
+
+        //int x = gun cast return gun.Capacity
+        public static implicit operator int(Gun gun)
+        {
+            return gun.Capacity;
+        }
+
+        //int x = (string)gun cast return gun.Capacity
+        public static explicit operator string(Gun gun)
+        {
+            return gun.Name;
+        }
     }
 }

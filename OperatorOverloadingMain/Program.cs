@@ -11,7 +11,12 @@ namespace OperatorOverloadingMain
             Gun gun2 = new Gun() { Name = "M16", Capacity = 30 };
 
             Gun gun = gun1 + gun2;
+
+            int x = gun1;
+            string y = (string)gun2;
+
             Console.WriteLine(gun.Name + " " + gun.Capacity);
+            Console.WriteLine(x + " " + y);
             Console.Read();
         }
     }
