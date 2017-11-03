@@ -17,5 +17,16 @@ namespace OperatorOverloading
             gun.Name = gun1.Name + " " + gun2.Name;
             return gun;
         }
+        
+        //if there == then you must write !=
+        public static bool operator ==(Gun gun1, Gun gun2)
+        {
+            return gun1.Capacity == gun2.Capacity;
+        }
+
+        public static bool operator !=(Gun gun1, Gun gun2)
+        {
+            return gun1.Capacity != gun2.Capacity;
+        }
     }
 }
