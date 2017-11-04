@@ -1,5 +1,4 @@
-﻿using OperatorOverloading;
-using System;
+﻿using System;
 
 namespace OperatorOverloading
 {
