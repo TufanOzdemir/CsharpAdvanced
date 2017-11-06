@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperatorOverloading", "OperatorOverloadingMain\OperatorOverloading.csproj", "{98A29D95-4DCB-4D2F-8447-99E17D4CCA71}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Operator Overloading", "Operator Overloading", "{2D91E679-A70E-424F-BF7A-EACCB2E5F692}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Operator Overloading Projects", "Operator Overloading Projects", "{2D91E679-A70E-424F-BF7A-EACCB2E5F692}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
