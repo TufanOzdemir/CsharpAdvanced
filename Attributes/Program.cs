@@ -14,11 +14,11 @@ namespace Attributes
 
             foreach (var item in types)
             {
-                Console.WriteLine("Class - " + item.Name);
+                Console.WriteLine($"Class - {item.Name}");
 
                 foreach (var prop in item.GetProperties())
                 {
-                    Console.WriteLine("Property - " + prop.Name);
+                    Console.WriteLine($"Property - {prop.Name}");
                 }
             }
 

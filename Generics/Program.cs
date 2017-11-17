@@ -14,7 +14,7 @@ namespace Generics
             JSONHelper.WriteJson(jsonModel);
 
             jsonModel = JSONHelper.ReadJson<JsonModel>();
-            Console.WriteLine("Name " + jsonModel.Name + "\nSurname " + jsonModel.Surname + "\nFrom " + jsonModel.From);
+            Console.WriteLine($"Name: {jsonModel.Name} \nSurname: {jsonModel.Surname} \nFrom: {jsonModel.From}");
 
             Console.Read();
         }

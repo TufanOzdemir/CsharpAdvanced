@@ -14,8 +14,8 @@ namespace OperatorOverloading
             int x = gun1;
             string y = (string)gun2;
 
-            Console.WriteLine(gun.Name + " " + gun.Capacity);
-            Console.WriteLine(x + " " + y);
+            Console.WriteLine($"{gun.Name} {gun.Capacity}");
+            Console.WriteLine($"{x} {y}");
             Console.Read();
         }
     }

@@ -8,13 +8,13 @@ namespace Reflections
         static void Main(string[] args)
         {
             Assembly assembly = Assembly.GetExecutingAssembly();
-            Console.WriteLine("Assembly Name : " + assembly.FullName);
+            Console.WriteLine($"Assembly Name : {assembly.FullName}");
 
             Type[] types = assembly.GetTypes();
             Console.WriteLine("\nTypes : ");
             foreach (var type in types)
             {
-                Console.WriteLine("\t" + type.Name);
+                Console.WriteLine($"\t {type.Name}");
 
                 //Properties
                 var props = type.GetProperties();
@@ -24,7 +24,7 @@ namespace Reflections
                 }
                 foreach (var prop in props)
                 {
-                    Console.WriteLine("\t\t\t" + prop.Name + "(" + prop.PropertyType + ")");
+                    Console.WriteLine($"\t\t\t {prop.Name} ({prop.PropertyType})");
                 }
 
                 //Fields
@@ -35,7 +35,7 @@ namespace Reflections
                 }
                 foreach (var field in fields)
                 {
-                    Console.WriteLine("\t\t\t" + field.Name + "(" + field.FieldType + ")");
+                    Console.WriteLine($"\t\t\t {field.Name} ({ field.FieldType})");
                 }
 
                 //Methods
@@ -46,7 +46,7 @@ namespace Reflections
                 }
                 foreach (var method in methods)
                 {
-                    Console.WriteLine("\t\t\t" + method.Name + "(" + method.ReturnType + ")");
+                    Console.WriteLine($"\t\t\t {method.Name} ({method.ReturnType})");
                 }
             }
 
@@ -57,7 +57,7 @@ namespace Reflections
             var myMethod = sampleType.GetMethod("WriteMethod");
             var myObject = myMethod.Invoke(new TryClass1(), null);
 
-            Console.WriteLine("myObject : " + myObject.ToString());
+            Console.WriteLine($"myObject : {myObject.ToString()}");
             Console.Read();
         }
     }
