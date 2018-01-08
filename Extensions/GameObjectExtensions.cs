@@ -8,7 +8,7 @@ namespace Extensions
     {
         public static string Information(this GameObject gameObject)
         {
-            return gameObject.Name + " " + gameObject.ID + " " + gameObject.X + " " + gameObject.Y + " " + gameObject.Z;
+            return $"{gameObject.Name} {gameObject.ID} {gameObject.X} {gameObject.Y} {gameObject.Z}";
         }
 
         public static string Information(this GameObject gameObject,GameObject gameObject2)
