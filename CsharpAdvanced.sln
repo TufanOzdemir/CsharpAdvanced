@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq", "Linq\Linq.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicType", "DynamicType\DynamicType.csproj", "{471DBDC1-0A1D-452F-B96E-04191F64E954}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskParallelLibrary", "TaskParallelLibrary\TaskParallelLibrary.csproj", "{183505A1-0062-40F2-8E1C-CE5173DFE617}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{471DBDC1-0A1D-452F-B96E-04191F64E954}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{471DBDC1-0A1D-452F-B96E-04191F64E954}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{471DBDC1-0A1D-452F-B96E-04191F64E954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{183505A1-0062-40F2-8E1C-CE5173DFE617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{183505A1-0062-40F2-8E1C-CE5173DFE617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{183505A1-0062-40F2-8E1C-CE5173DFE617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{183505A1-0062-40F2-8E1C-CE5173DFE617}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
