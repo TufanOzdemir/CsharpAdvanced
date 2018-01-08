@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicType", "DynamicType\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskParallelLibrary", "TaskParallelLibrary\TaskParallelLibrary.csproj", "{183505A1-0062-40F2-8E1C-CE5173DFE617}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAndAwait", "AsyncAndAwait\AsyncAndAwait.csproj", "{13C1E57E-5740-4CF9-9E11-535D74307AFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{183505A1-0062-40F2-8E1C-CE5173DFE617}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{183505A1-0062-40F2-8E1C-CE5173DFE617}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{183505A1-0062-40F2-8E1C-CE5173DFE617}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13C1E57E-5740-4CF9-9E11-535D74307AFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13C1E57E-5740-4CF9-9E11-535D74307AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13C1E57E-5740-4CF9-9E11-535D74307AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13C1E57E-5740-4CF9-9E11-535D74307AFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -14,7 +14,7 @@ namespace TaskParallelLibrary
             {
                 Console.WriteLine("task 1 is begining.");
                 Thread.Sleep(2000);
-                Console.WriteLine("task 1 is complement.");
+                Console.WriteLine("task 1 is completed.");
             });
             t1.ContinueWith((prevTask) =>
             {
@@ -44,7 +44,7 @@ namespace TaskParallelLibrary
         {
             Console.WriteLine($"task {id} is begining.");
             Thread.Sleep(sleep);
-            Console.WriteLine($"task {id} is complement.");
+            Console.WriteLine($"task {id} is completed.");
         }
 
         static void JobContinue(int id)
