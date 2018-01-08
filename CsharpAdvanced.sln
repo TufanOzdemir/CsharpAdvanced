@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extensions", "Extensions\Ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq", "Linq\Linq.csproj", "{DC99BE58-3876-44BE-A237-30321343B556}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicType", "DynamicType\DynamicType.csproj", "{471DBDC1-0A1D-452F-B96E-04191F64E954}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{DC99BE58-3876-44BE-A237-30321343B556}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC99BE58-3876-44BE-A237-30321343B556}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC99BE58-3876-44BE-A237-30321343B556}.Release|Any CPU.Build.0 = Release|Any CPU
+		{471DBDC1-0A1D-452F-B96E-04191F64E954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{471DBDC1-0A1D-452F-B96E-04191F64E954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{471DBDC1-0A1D-452F-B96E-04191F64E954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{471DBDC1-0A1D-452F-B96E-04191F64E954}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
