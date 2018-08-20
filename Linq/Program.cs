@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Linq.Linq101;
+using System;
 using System.Linq;
 
 namespace Linq
@@ -7,7 +8,13 @@ namespace Linq
     {
         static void Main(string[] args)
         {
-            string text = "Created by Tufan Ozdemir";
+            //Initialize
+            BaseClass baseClass = new BaseClass();
+
+            //Linq101
+            new SelectAnonymousType();
+
+            /*string text = "Created by Tufan Ozdemir";
 
             var result = from k in text.ToLower()
                          where k == 'a' || k == 'e' || k == 'i' || k == 'o'
@@ -17,7 +24,7 @@ namespace Linq
             foreach (var item in result)
             {
                 Console.WriteLine($"{item.Key} - {item.Count()}");
-            }
+            }*/
             Console.Read();
         }
     }
